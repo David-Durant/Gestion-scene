@@ -1,0 +1,8 @@
+VERSION:3 SOURCE_TIMESTAMP:4CB569E0
+NODE:I LEVEL:0 LINE:8 "C:\cvavreval\inc\mega8535.h"
+NODE:I LEVEL:0 LINE:9 "C:\cvavreval\inc\alcd.h"
+NODE:I LEVEL:0 LINE:10 "C:\cvavreval\inc\delay.h"
+NODE:I LEVEL:0 LINE:11 "C:\cvavreval\inc\interrupt.h"
+NODE:V LEVEL:0 LINE:13 "v -> R5"
+NODE:F LEVEL:0 LINE:15 "itTimer1(void)"
+NODE:F LEVEL:0 LINE:20 "main(void)"
