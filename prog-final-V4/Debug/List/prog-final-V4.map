@@ -1,0 +1,57 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+tabCaracteresRecus                                                                0x00E0      30
+affValeur                                                                         0x00FE      20
+tabEnvoiDmx                                                                       0x0112       6
+_base_y                                                                           0x0118       4
+_seed                                                                             0x011C       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+aiToutRecu                                                                        R5           1
+compteurRecu                                                                      R4           1
+basculeBitValeur                                                                  R6,R7        2
+_lcd_x                                                                            R9           1
+_lcd_y                                                                            R8           1
+_lcd_maxx                                                                         R11          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+itPortSerieReception                                                              0x0008B     22
+initLCD                                                                           0x000A1     11
+initPortSerieBluetooth                                                            0x000AC      8
+afficheOctet                                                                      0x000B4     13
+decodeCouleur                                                                     0x000C1     20
+decodeLight                                                                       0x000D5     12
+decodeMusic                                                                       0x000E1     92
+main                                                                              0x0013D     27
+initDmx                                                                           0x00158     13
+initPortSerieDmx                                                                  0x00165      9
+debutTrameDmx                                                                     0x0016E     13
+envoiTrameDmx                                                                     0x0017B     12
+finTrameDmx                                                                       0x00187      5
+envoiDmx                                                                          0x0018C      5
+couleurDmx                                                                        0x00191     17
+lyreDmx                                                                           0x001A2     12
+rc5Bit1L                                                                          0x001AE      9
+rc5Bit0L                                                                          0x001B7      9
+rc5BasculeBit                                                                     0x001C0     26
+rc5CmdStop                                                                        0x001F1      5
+rc5CmdNext                                                                        0x001F9      7
+rc5CmdPrev                                                                        0x00200      7
+_lcd_write_nibble_G100                                                            0x00207     15
+_lcd_write_data                                                                   0x00216     14
+lcd_gotoxy                                                                        0x00224     16
+lcd_clear                                                                         0x00234     10
+lcd_putchar                                                                       0x0023E     20
+lcd_puts                                                                          0x00252     13
+lcd_putsf                                                                         0x0025F     15
+lcd_init                                                                          0x0026E     43
+itoa                                                                              0x00299     46
